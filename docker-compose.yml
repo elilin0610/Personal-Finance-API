@@ -1,10 +1,8 @@
-version: '3'
 services:
   db:
     image: postgres:15
     restart: unless-stopped
-	
-	    environment:
+    environment:
       POSTGRES_DB: personalfinance
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
