@@ -1,10 +1,12 @@
 # Personal Finance API
 
-A personal finance management RESTful API built with Java 21, Spring Boot 3, PostgreSQL, Docker Compose, JWT, and GitHub Actions CI.
+**繁體中文** | [English](./README.en.md) | [日本語](./README.ja.md)
 
-> See detailed API documentation in Swagger UI once running.
+使用 Java 21、Spring Boot 3、PostgreSQL、Docker Compose、JWT 與 GitHub Actions CI 建置的個人理財 RESTful API。
 
-## Quick Start
+> 啟動後可在 Swagger UI 查看完整 API 文件。
+
+## 快速開始
 
 ```bash
 # 1. 啟動 Postgres 容器
@@ -19,6 +21,7 @@ mvn spring-boot:run
 
 ## 專案目錄結構（不含 DB 及暫存檔）
 
+```text
 personal-finance/
 │   README.md                  # 專案介紹文件 (Markdown 格式，推薦寫專案說明/安裝/使用方式)
 │   pom.xml                    # Maven 專案依賴/設定檔
@@ -49,3 +52,4 @@ personal-finance/
 ├───.github
 │   └───workflows
 │        ci.yml            # GitHub Actions 設定檔，自動執行CI流程
+```
